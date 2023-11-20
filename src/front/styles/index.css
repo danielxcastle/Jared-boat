@@ -28,8 +28,9 @@ body {
     
 }
 .home-image {
-    height: 800px;
+    width: 80%;
     border: 1rem ridge burlywood;
+
 }
 .top-left {
     left: 15%;
@@ -44,4 +45,21 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     border: 1rem ridge burlywood;
+}
+.home-header {
+    border: .5rem ridge burlywood;
+    background-color: #BF9C7B;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+.home-content {
+    border: .5rem ridge burlywood;
+    background-color: #BF9C7B;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding: 10px;
+    font-size: large;
+    margin-top: 1rem;
 }
