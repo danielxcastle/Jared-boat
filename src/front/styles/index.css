@@ -1,3 +1,24 @@
-/* 
-    General Styles used on every website (Don't Repeat Yourself)
-*/
+
+.navbar-logo {
+    width: 300px;
+    height: 300px;
+    border: 1rem ridge burlywood;
+}
+.navbar-custom {
+    background-image: url('../img/navbackground.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+.nav-button {
+    border: .5rem ridge burlywood;
+    background-color: #BF9C7B;
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+    padding: 10px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
