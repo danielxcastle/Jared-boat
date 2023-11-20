@@ -53,6 +53,8 @@ body {
     text-shadow: 2px 2px 2px black;
     padding: 10px;
     margin-bottom: 1rem;
+    font-weight: 800;
+    
 }
 .home-content {
     border: .5rem ridge burlywood;
