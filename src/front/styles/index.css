@@ -1,16 +1,14 @@
-
+body {
+    background-color: tan;
+}
 .navbar-logo {
     width: 300px;
     height: 300px;
-    border: 1rem ridge burlywood;
+    border: .5rem ridge burlywood;
 }
 .navbar-custom {
-    background-image: url('../img/navbackground.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 300px;
+    height: 200px;
+    border: 1rem ridge burlywood;
 }
 .nav-button {
     border: .5rem ridge burlywood;
@@ -21,4 +19,26 @@
     padding: 10px;
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-button:hover {
+    border: .5rem ridge lightcyan;
+    
+}
+.home-image {
+    height: 800px;
+    border: 1rem ridge burlywood;
+}
+.top-left {
+    left: 15%;
+    top: 0;
+    position: absolute;
+}
+.top-right {
+    right: 5%;
+    position: absolute;
+}
+.home-page {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1rem ridge burlywood;
 }
