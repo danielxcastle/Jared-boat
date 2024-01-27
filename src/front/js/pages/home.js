@@ -1,16 +1,18 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
-import rigoImageUrl from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
 import boat from "../../img/boat.jpg"
-import ocean from "../../img/homebackground.png"
 
 export const Home = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
-		<div className="text-center mt-2 home-page" style={{ backgroundImage: `url(${ocean})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
-		  <h1 className="home-header">Welcome! Your journey awaits!</h1>
+		<div className="text-center mt-2 home-page">
+		  <h1 className="home-header">
+			Welcome!
+			<br />
+		</h1>
+			<i className="bottom-header">Your journey awaits...</i>
 	
 		  <img className="home-image" src={boat} />
 		  <div className="home-content">

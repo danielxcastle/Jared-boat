@@ -9,11 +9,16 @@ import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
+import { SecondNavbar } from "./component/secondNavbar";
+import { About } from "./pages/about";
+import { Faq } from "./pages/faq";
+import { RecentCatches } from "./pages/recentCatches";
 
-//create your first component
+import { CatchNumbers } from "./pages/catchNumbers";
+
+
 const Layout = () => {
-    //the basename is used when your project is published in a subdirectory and not in the root of the domain
-    // you can set the basename on the .env file located at the root of this project, E.g: BASENAME=/react-hello-webapp/
+    
     const basename = process.env.BASENAME || "";
 
     if(!process.env.BACKEND_URL || process.env.BACKEND_URL == "") return <BackendURL/ >;
@@ -23,9 +28,14 @@ const Layout = () => {
             <BrowserRouter basename={basename}>
                 <ScrollToTop>
                     <Navbar />
+                    <SecondNavbar />
                     <Routes>
                         <Route element={<Home />} path="/" />
-
+                        <Route element={<About />} path="/about" />
+                        <Route element={<Faq />} path="/faq" />
+                        <Route element={<RecentCatches />} path="/recent-catches" />
+                        
+                        <Route element={<CatchNumbers />} path="/catch-numbers" />
                         <Route element={<h1>Not found!</h1>} />
                     </Routes>
                     <Footer />
