@@ -27,10 +27,14 @@ body {
     border: .4rem ridge #669DC7;    
 }
 .home-image {
-    width: 80%;
-    border: .4rem ridge black;
-    margin: 1rem;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
 
+}
+.home-image-container {
+    justify-content: center;
+    align-items: center;
 }
 .top-left {
     left: 15%;
@@ -61,7 +65,7 @@ body {
     
 }
 .home-content {
-    border-top: .4rem ridge #5AC8E9;
+    border-top: .4rem ridge black;
     background-color: #669DC7;
     color: black;
     /* text-shadow: 2px 2px 2px lightgray; */
@@ -87,7 +91,7 @@ body {
 .lower-nav-btn {
     flex: 1;
     background-color: whitesmoke;
-    width: 10rem;
+    width: 14rem;
     font-size: x-large;
     font-weight: 500;
     margin-top: 0; /* Remove top margin */
@@ -95,12 +99,30 @@ body {
     padding-top: 0; /* Remove top padding */
     padding-bottom: 0; /* Remove bottom padding */
     border: 0;
-
+    
 }
 .lower-nav-btn:hover {
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
+.lower-nav-btn-insta {
+    flex: 1;
+    background-color: whitesmoke;
+    width: 4rem; /* Adjust the width */
+    font-size: 25px; /* Adjust the font-size */
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 0;
+}
+
+.lower-nav-btn-insta:hover {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
 .middlelogo {
     max-height: 18rem;
 
@@ -150,16 +172,72 @@ body {
     font-weight: 600;
     font-family: URW Chancery L, cursive;
     font-size: xx-large;
+    margin-bottom: 1rem;
 }
 .navbar-logo {
     opacity: .8;
     transition: opacity 0.5s ease;
   }
   
-  .navbar-logo:hover {
+.navbar-logo:hover {
     opacity: 1; 
-  }
-  .info {
+}
+.info {
     padding-left: 5%;
     padding-right: 5%;
+}
+.questions {
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.questions-button {
+    width: 15rem;
+    height: 5rem;
+    font-size: larger;
+    font-weight: 700;
+    border: .4rem black ridge;
+}
+.questions-button:hover {
+    border: .4rem ridge #669DC7;
+}
+.gallery-image {
+    max-width: 100%; /* Set a maximum width and subtract the padding */
+    width: 1000%;
+    height: auto;
+    padding: 2rem; /* Maintain aspect ratio */
+    box-sizing: border-box; /* Include padding in the total width */
   }
+.home-text {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.what-catch {
+    margin: 2rem;
+    border: .2rem solid black;
+}
+.what-catch-headers {
+    border-bottom: .2rem solid black;
+}
+.what-typical {
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.fish-catch {
+    font-size: larger;
+}
+.dropdown-item {
+    width: 14rem;
+}
+.map-image {
+    width: 95%;
+}
+.location {
+    font-size:x-large;
+}
+.location-info {
+    padding: 2rem;
+}
+.insta-logo {
+    font-size: xx-large;
+}

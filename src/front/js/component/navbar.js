@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Email } from "../component/email";
 import { Phone } from "../component/phone";
 import anchor from "../../img/anchor.png";
 import anchor2 from "../../img/anchor2.png"; // Import the second anchor image
 import middlelogo from "../../img/middlelogo.png";
 import { useNavigate } from "react-router-dom";
 import "../../styles/index.css"; // Import your CSS file
+import BookingEmail from "./bookingEmail";
 
 export const Navbar = () => {
   const navigate = useNavigate();
@@ -58,7 +58,7 @@ export const Navbar = () => {
         <div className="col-4 top-right">
           <div className="nav-buttons">
             <Phone />
-            <Email />
+            <BookingEmail />
           </div>
         </div>
       </div>

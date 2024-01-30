@@ -14,7 +14,9 @@ import { About } from "./pages/about";
 import { Faq } from "./pages/faq";
 import { RecentCatches } from "./pages/recentCatches";
 
-import { CatchNumbers } from "./pages/catchNumbers";
+
+import { What } from "./pages/what";
+import { Location } from "./pages/location";
 
 
 const Layout = () => {
@@ -34,8 +36,8 @@ const Layout = () => {
                         <Route element={<About />} path="/about" />
                         <Route element={<Faq />} path="/faq" />
                         <Route element={<RecentCatches />} path="/recent-catches" />
-                        
-                        <Route element={<CatchNumbers />} path="/catch-numbers" />
+                        <Route element={<What />} path="/what" />
+                        <Route element={<Location />} path="/location" />
                         <Route element={<h1>Not found!</h1>} />
                     </Routes>
                     <Footer />
