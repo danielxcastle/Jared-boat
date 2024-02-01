@@ -8,6 +8,6 @@ export const Phone = () => {
     };
 
     return (
-        <button onClick={handlePhoneClick} className="nav-button"><i className="fa-solid fa-phone"></i> Call Us!</button>
+        <button onClick={handlePhoneClick} className="lower-nav-button"><i className="fa-solid fa-phone"></i> Call Us!</button>
     );
 };

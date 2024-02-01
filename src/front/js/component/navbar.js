@@ -57,8 +57,6 @@ export const Navbar = () => {
         </div>
         <div className="col-4 top-right">
           <div className="nav-buttons">
-            <Phone />
-            <BookingEmail />
           </div>
         </div>
       </div>

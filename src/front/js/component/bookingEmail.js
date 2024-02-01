@@ -12,7 +12,7 @@ export const BookingEmail = () => {
   };
 
   return (
-    <button onClick={handleEmailClick} className="nav-button"><i className="fa-solid fa-envelope"></i> Email Us!</button>
+    <button onClick={handleEmailClick} className="lower-nav-button"><i className="fa-solid fa-envelope"></i> Email Us!</button>
   );
 };
 
