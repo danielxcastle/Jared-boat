@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Phone } from "../component/phone";
-import anchor from "../../img/anchor.png";
-import anchor2 from "../../img/anchor2.png"; // Import the second anchor image
+import anchor from "./../img/anchor.png";
+import anchor2 from "./../img/anchor2.png"; // Import the second anchor image
 import middlelogo from "../../img/middlelogo.png";
 import { useNavigate } from "react-router-dom";
 import "../../styles/index.css"; // Import your CSS file
