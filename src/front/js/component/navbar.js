@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Phone } from "../component/phone";
-import anchor from "../../front/img/anchor.png";
+import anchor from "../../img/anchor.png";
 import anchor2 from "../../img/anchor2.png"; // Import the second anchor image
 import middlelogo from "../../img/middlelogo.png";
 import { useNavigate } from "react-router-dom";
@@ -56,8 +56,6 @@ export const Navbar = () => {
           <center>Hello!</center>
         </div>
         <div className="col-4 top-right">
-          <div className="nav-buttons">
-          </div>
         </div>
       </div>
     </nav>
