@@ -1,0 +1,243 @@
+body {
+    background-color: #02023F;
+}
+.navbar-logo {
+    width: 250px;
+    height: 250px;
+    border: .5rem black;
+    
+}
+.navbar-custom {
+    height: 19rem;
+    border: .5rem black;
+    background-color: #02023F;
+}
+.nav-button {
+    border: .4rem ridge black;
+    background-color: whitesmoke;
+    color: #02023F;
+    font-weight: 900;
+    font-size: xx-large;
+    top: 3rem;
+    height: 5rem;
+    width: 15rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-button:hover {
+    border: .4rem ridge #669DC7;    
+}
+.home-image {
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+
+}
+.home-image-container {
+    justify-content: center;
+    align-items: center;
+}
+.top-left {
+    left: 15%;
+    top: 1rem;
+    position: absolute;
+}
+.top-right {
+    right: 5%;
+    position: absolute;
+    top: 5rem;
+}
+.home-page {
+    margin-left: 10%;
+    margin-right: 10%;
+    left: 10%;
+    right: 10%;
+    background-color: whitesmoke;
+    border: .4rem solid black;
+    min-height: 400px;
+}
+.home-header {
+    border-bottom: .4rem ridge black;
+    background-color: #669DC7;
+    color: Black;
+    padding: 10px;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    
+}
+.home-content {
+    border-top: .4rem ridge black;
+    background-color: #669DC7;
+    color: black;
+    /* text-shadow: 2px 2px 2px lightgray; */
+    padding: 10px;
+    font-weight: 700;
+    font-size: large;
+    margin-top: 1rem;
+}
+.navbar-lower {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+
+.navbar-lower row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.lower-nav-btn {
+    flex: 1;
+    background-color: whitesmoke;
+    width: 14rem;
+    font-size: x-large;
+    font-weight: 500;
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 0; /* Remove bottom margin */
+    padding-top: 0; /* Remove top padding */
+    padding-bottom: 0; /* Remove bottom padding */
+    border: 0;
+    
+}
+.lower-nav-btn:hover {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.lower-nav-btn-insta {
+    flex: 1;
+    background-color: whitesmoke;
+    width: 4rem; /* Adjust the width */
+    font-size: 25px; /* Adjust the font-size */
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 0;
+}
+
+.lower-nav-btn-insta:hover {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.middlelogo {
+    max-height: 18rem;
+
+    text-align: center;
+}
+.info {
+    font-size: x-large;
+}
+/* Add these styles to your CSS file */
+.about-image {
+    width: 60%;
+    border: 2px solid black;
+    margin: 2rem;
+  }
+  
+.boat-name {
+    border-bottom: .4rem ridge black;
+    background-color: lightskyblue;
+    color: Black;
+    padding: 10px;
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+.about-upper {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.faq-item {
+    padding-top: 1rem;
+    border-top: .1rem solid black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.title-faq {
+    text-decoration: underline;
+}
+.juicer-feed {
+    max-width: 65%;
+    z-index: 1;
+    margin-top: 20px;
+}
+.insta {
+    width: 80%;
+    height: 80%;
+}
+.bottom-header {
+    font-weight: 600;
+    font-family: URW Chancery L, cursive;
+    font-size: xx-large;
+    margin-bottom: 1rem;
+}
+.navbar-logo {
+    opacity: .8;
+    transition: opacity 0.5s ease;
+  }
+  
+.navbar-logo:hover {
+    opacity: 1; 
+}
+.info {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.questions {
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.questions-button {
+    width: 15rem;
+    height: 5rem;
+    font-size: larger;
+    font-weight: 700;
+    border: .4rem black ridge;
+}
+.questions-button:hover {
+    border: .4rem ridge #669DC7;
+}
+.gallery-image {
+    max-width: 100%; /* Set a maximum width and subtract the padding */
+    width: 1000%;
+    height: auto;
+    padding: 2rem; /* Maintain aspect ratio */
+    box-sizing: border-box; /* Include padding in the total width */
+  }
+.home-text {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.what-catch {
+    margin: 2rem;
+    border: .2rem solid black;
+}
+.what-catch-headers {
+    border-bottom: .2rem solid black;
+}
+.what-typical {
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.fish-catch {
+    font-size: larger;
+}
+.dropdown-item {
+    width: 14rem;
+}
+.map-image {
+    width: 95%;
+}
+.location {
+    font-size:x-large;
+}
+.location-info {
+    padding: 2rem;
+}
+.insta-logo {
+    font-size: xx-large;
+}
