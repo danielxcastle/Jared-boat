@@ -58,14 +58,14 @@ export const SecondNavbar = () => {
               </h5>
             </div>
           </div>
+          <a href="https://www.instagram.com/capt_jared_m/" target="_blank" rel="noopener noreferrer" className="lower-nav-btn-insta text-black text-center">
+            <h5><i className="fa-brands fa-instagram insta-logo"></i></h5>
+          </a>
           <div>
 
           <Phone />
           <BookingEmail />
           </div>
-          <a href="https://www.instagram.com/capt_jared_m/" target="_blank" rel="noopener noreferrer" className="lower-nav-btn-insta text-black text-center">
-            <h5><i className="fa-brands fa-instagram insta-logo"></i></h5>
-          </a>
           </div>
       </div>
     </nav>
